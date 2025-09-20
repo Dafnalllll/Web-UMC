@@ -1,18 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-
-// Import components
-import Navbar from "./components/Navbar";
-
-// Import pages
-import Home from "./pages/Home";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Home from "./Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // durasi animasi (ms)
+      once: false, // animasi hanya jalan sekali
+    });
+  }, []);
+
   return (
     <Router>
       <Routes>
