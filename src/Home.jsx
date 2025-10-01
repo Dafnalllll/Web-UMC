@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 const Home = () => {
   return (
     <div className="bg-black w-full min-h-screen flex items-center justify-center">
@@ -10,6 +11,7 @@ const Home = () => {
         </h1>
         <p className="text-xl text-white">Halaman Utama</p>
       </div>
+      <Footer />
     </div>
   );
 };

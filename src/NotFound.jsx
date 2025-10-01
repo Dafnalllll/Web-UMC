@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import UMC from "./assets/UMC.png";
 const NotFound = () => {
   return (
     <div className="bg-gray-100 w-full min-h-screen flex items-center justify-center">

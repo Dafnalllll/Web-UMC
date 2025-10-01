@@ -5,9 +5,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Home from "./Home";
 import About from "./pages/About";
-import Services from "./pages/Services";
+import Service from "./pages/Service";
 import Contact from "./pages/Contact";
-import NotFound from "./pages/NotFound";
+import NotFound from "./NotFound";
 
 function App() {
   useEffect(() => {
@@ -22,7 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
