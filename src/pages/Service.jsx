@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-const Services = () => {
+import Footer from "../components/Footer";
+const Service = () => {
   return (
     <div className="bg-purple-500 w-full min-h-screen flex items-center justify-center">
       <Navbar />
@@ -33,4 +34,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Service;

@@ -15,7 +15,7 @@ const Navbar = () => {
           onClick={() => handleNavigation("/")}
           className="text-2xl font-bold hover:text-gray-300 transition-colors cursor-pointer"
         >
-          PortoUMC
+          UMC
         </button>
         <div className="space-x-6">
           <button
@@ -31,10 +31,10 @@ const Navbar = () => {
             About
           </button>
           <button
-            onClick={() => handleNavigation("/services")}
+            onClick={() => handleNavigation("/service")}
             className="hover:text-gray-300 transition-colors font-medium cursor-pointer"
           >
-            Services
+            Service
           </button>
           <button
             onClick={() => handleNavigation("/contact")}
