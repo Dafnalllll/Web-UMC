@@ -4,9 +4,6 @@ import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Home from "./Home";
-import About from "./pages/About";
-import Service from "./pages/Service";
-import Contact from "./pages/Contact";
 import NotFound from "./NotFound";
 
 function App() {
@@ -21,9 +18,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/service" element={<Service />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

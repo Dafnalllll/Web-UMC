@@ -97,7 +97,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <hr className="w-full border-t border-white opacity-30 my-4" />
+      <hr className="w-[100] border-t border-white opacity-30 my-4" />
       <div className="text-xs text-white mt-2 opacity-70 text-center">
         &copy; {new Date().getFullYear()} UMC. All rights reserved.
       </div>
