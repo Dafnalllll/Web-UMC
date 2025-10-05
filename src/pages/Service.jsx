@@ -1,10 +1,8 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+
 const Service = () => {
   return (
     <div className="bg-purple-500 w-full min-h-screen flex items-center justify-center">
-      <Navbar />
       <div className="text-center">
         <h1 className="text-4xl font-bold text-white mb-4">Layanan Kami</h1>
         <p className="text-xl text-white mb-8">
@@ -29,7 +27,6 @@ const Service = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

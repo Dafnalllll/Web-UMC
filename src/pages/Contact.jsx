@@ -1,11 +1,8 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
     <div className="bg-gradient-to-br from-green-500 to-green-700 w-full min-h-screen flex flex-col">
-      <Navbar />
       <main className="flex-1 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-4xl font-extrabold text-white mb-2 drop-shadow-lg">
@@ -95,7 +92,6 @@ const Contact = () => {
           </div>
         </div>
       </main>
-      <Footer />
     </div>
   );
 };

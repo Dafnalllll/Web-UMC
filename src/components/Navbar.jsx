@@ -4,8 +4,9 @@ import { useNavigate } from "react-router-dom";
 const menu = [
   { label: "Home", id: "home" },
   { label: "About", id: "about" },
-  { label: "Services", id: "services" },
+  { label: "Service", id: "service" },
   { label: "Contact", id: "contact" },
+  { label: "Gallery", id: "gallery" },
 ];
 
 const Navbar = () => {
